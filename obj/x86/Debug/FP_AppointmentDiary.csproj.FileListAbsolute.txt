@@ -1,0 +1,38 @@
+C:\Users\Yinan Ma\Desktop\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\bin\Debug\FP_AppointmentDiary.exe
+C:\Users\Yinan Ma\Desktop\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\bin\Debug\FP_AppointmentDiary.pdb
+C:\Users\Yinan Ma\Desktop\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Yinan Ma\Desktop\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\FP_AppointmentDiary.ADMain.resources
+C:\Users\Yinan Ma\Desktop\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Yinan Ma\Desktop\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Yinan Ma\Desktop\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\FP_AppointmentDiary.exe.licenses
+C:\Users\Yinan Ma\Desktop\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\FP_AppointmentDiary.exe
+C:\Users\Yinan Ma\Desktop\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\FP_AppointmentDiary.pdb
+C:\Users\Yinan Ma\Desktop\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\bin\Debug\FP_AppointmentDiary.exe.config
+C:\Users\Yinan Ma\Desktop\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\FP_AppointmentDiary.ExceptionHandlingDialog.resources
+C:\Users\Yinan Ma\Desktop\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\FP_AppointmentDiary.SelectStaffDialog.resources
+C:\Users\Yinan Ma\Desktop\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\FP_AppointmentDiary.CheckOutDialog.resources
+C:\Users\Yinan Ma\Desktop\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\bin\Debug\FP_AppointmentDiary.exe.manifest
+C:\Users\Yinan Ma\Desktop\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\bin\Debug\FP_AppointmentDiary.application
+C:\Users\Yinan Ma\Desktop\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\FP_AppointmentDiary.exe.manifest
+C:\Users\Yinan Ma\Desktop\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\FP_AppointmentDiary.application
+C:\Users\Yinan Ma\Desktop\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\FP_AppointmentDiary.Properties.Resources.resources
+C:\Users\Yinan Ma\Desktop\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\FP_AppointmentDiary.AddStaff.resources
+C:\ISO\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\bin\Debug\FP_AppointmentDiary.exe.config
+C:\ISO\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\FP_AppointmentDiary.exe
+C:\ISO\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\FP_AppointmentDiary.pdb
+C:\ISO\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\bin\Debug\FP_AppointmentDiary.exe.manifest
+C:\ISO\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\bin\Debug\FP_AppointmentDiary.application
+C:\ISO\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\bin\Debug\FP_AppointmentDiary.exe
+C:\ISO\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\bin\Debug\FP_AppointmentDiary.pdb
+C:\ISO\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\ISO\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\FP_AppointmentDiary.AddStaff.resources
+C:\ISO\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\FP_AppointmentDiary.ADMain.resources
+C:\ISO\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\FP_AppointmentDiary.ExceptionHandlingDialog.resources
+C:\ISO\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\FP_AppointmentDiary.CheckOutDialog.resources
+C:\ISO\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\FP_AppointmentDiary.Properties.Resources.resources
+C:\ISO\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\FP_AppointmentDiary.SelectStaffDialog.resources
+C:\ISO\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\ISO\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\ISO\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\FP_AppointmentDiary.exe.licenses
+C:\ISO\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\FP_AppointmentDiary.exe.manifest
+C:\ISO\FP_APP\FP_AppointmentDiary\FP_AppointmentDiary\obj\x86\Debug\FP_AppointmentDiary.application

@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E75610B6-ED62-4DC2-AB2A-8822448AD50C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FP_AppointmentDiary</RootNamespace>
+    <AssemblyName>FP_AppointmentDiary</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Yinan Ma\Desktop\FP_APP_BETA\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>063D68F1CB0884DF527F21550107C8777979E5F4</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>FP_AppointmentDiary_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponentFactory.Krypton.Toolkit, Version=4.1.6.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e" />
+    <Reference Include="DevExpress.Data.v10.1, Version=10.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v10.1, Version=10.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v10.1, Version=10.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v10.1, Version=10.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraLayout.v10.1, Version=10.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v10.1, Version=10.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v10.1.Core, Version=10.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v10.1.Extensions, Version=10.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraSpellChecker.v10.1, Version=10.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraSpellChecker.v10.1.Core, Version=10.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraWizard.v10.1, Version=10.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddStaff.Designer.cs">
+      <DependentUpon>AddStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMain.Designer.cs">
+      <DependentUpon>ADMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppointmentDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppointmentDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ExceptionHandlingDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExceptionHandlingDialog.Designer.cs">
+      <DependentUpon>ExceptionHandlingDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckOutDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckOutDialog.Designer.cs">
+      <DependentUpon>CheckOutDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SelectStaffDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectStaffDialog.Designer.cs">
+      <DependentUpon>SelectStaffDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResourceDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ResourceDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddStaff.resx">
+      <DependentUpon>AddStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMain.resx">
+      <DependentUpon>ADMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExceptionHandlingDialog.resx">
+      <DependentUpon>ExceptionHandlingDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckOutDialog.resx">
+      <DependentUpon>CheckOutDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectStaffDialog.resx">
+      <DependentUpon>SelectStaffDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <None Include="app.config" />
+    <None Include="AppointmentDataSet.xsc">
+      <DependentUpon>AppointmentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AppointmentDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AppointmentDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AppointmentDataSet.xss">
+      <DependentUpon>AppointmentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FP_AppointmentDiary_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="ResourceDataSet.xsc">
+      <DependentUpon>ResourceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ResourceDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ResourceDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ResourceDataSet.xss">
+      <DependentUpon>ResourceDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\accepted_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\add_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\add_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\app_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\arrow_down_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\arrow_down_green_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\arrow_left_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\arrow_left_green_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\arrow_right_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\arrow_right_green_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\arrow_up_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\arrow_up_green_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\beer_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\blinklist_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\blue_speech_bubble_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\book_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\box_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\box_download_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\box_upload_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\camera_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\camera_add_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\camera_delete_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\camera_noflash_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\camera_noflash_add_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\camera_noflash_delete_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\camera_noflash_warning_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\camera_warning_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\cancel_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\cancel_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\cd_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\circle_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\circle_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\circle_orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\circle_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\clock_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\coffee_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\coffee_mug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\comment_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\comment_add_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\comment_remove_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\comment_warning_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\computer_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\creditcard_american_express.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\creditcard_cirrus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\creditcard_mastercard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\creditcard_paypal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\creditcard_solo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\creditcard_switch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\creditcard_visa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\cross_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\database_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\database_add_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\database_remove_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\database_warning_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\delicious_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\designfloat_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\digg_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\feedburner_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\flickr_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\floppy_disk_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\folder_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\folder_add_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\folder_delete_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\folder_warning_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\furl_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\globe_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\google_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\heart_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\home_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\image_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\image_add_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\image_delete_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\image_warning_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\lightbulb_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\lock_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\lock_open_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\mail_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\mail_add_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\mail_delete_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\mail_forward_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\mail_reply_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\mail_spam_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\mail_write_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\mixx_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\mouse_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\navigate_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\newspaper_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\paper&amp;pencil_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\paper_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\paper_content_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\paper_content_chart_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\paper_content_pencil_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\pencil_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\pie_chart_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\printer_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\questionmark_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\reddit_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\refresh_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\rss_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\search_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\smile_grin_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\smile_sad_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\spanner_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\speech_bubble_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\star_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\star_half_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\star_off_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\sumbleupon_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\table_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\table_green_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\tabs_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\technorati_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\thumbs_down_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\thumbs_up_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\twitter_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\twitter_boxed_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\usb_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\user_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\user_add_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\user_delete_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\user_two_delete_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\user_warning_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\users_two_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\users_two_add_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\users_two_warning_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\warning_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\warning_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Folder\yahoo_48.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
